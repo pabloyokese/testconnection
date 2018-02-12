@@ -17,7 +17,7 @@ public class WebController {
 
     @RequestMapping(method = RequestMethod.GET)
     public String readFoo() {
-        return "read foo " + UUID.randomUUID().toString();
+        return "read foo here we have a big change! " + UUID.randomUUID().toString();
     }
     
     @RequestMapping(method = RequestMethod.POST)
